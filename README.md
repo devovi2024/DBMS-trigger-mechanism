@@ -44,3 +44,29 @@ A trigger follows three main steps:
 
 ### Trigger Workflow Diagram
 
+---
+
+## Trigger Structure
+
+Here’s the basic syntax to create a trigger:
+
+```sql
+CREATE TRIGGER trigger_name
+BEFORE | AFTER (INSERT | UPDATE | DELETE)
+ON table_name
+FOR EACH ROW
+BEGIN
+    -- Action to perform
+END;
+
+
+
+## Benefits of Using Triggers
+
+![Benefits Icon](https://via.placeholder.com/20) **Advantages**
+
+Triggers offer several advantages:
+
+- ✅ **Prevents Errors**: They automatically block common issues like duplicate entries.
+- ⏳ **Automates Processes**: Triggers reduce the need for repetitive manual work.
+- 🔒 **Ensures Data Integrity**: They help keep the database consistent and organized.
